@@ -13,11 +13,11 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@repo/database": "workspace:*",
+    "@prisma/adapter-pg": "^7.8.0",
+    "@prisma/client": "^7.8.0",
     "@repo/typescript-config": "workspace:*",
     "@types/cors": "^2.8.19",
     "@types/express": "^5.0.6",
-    "@types/node": "^22.15.3",
     "better-auth": "^1.6.23",
     "compression": "^1.8.1",
     "cors": "^2.8.6",
@@ -31,6 +31,8 @@
   },
   "devDependencies": {
     "@types/compression": "^1.8.1",
-    "@types/pg": "^8.20.0"
+    "@types/node": "^22.15.3",
+    "@types/pg": "^8.20.0",
+    "prisma": "^7.8.0"
   }
 }
